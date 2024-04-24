@@ -71,7 +71,7 @@ const App = () => {
       )}
     </div>
 
-      <main>
+      <main className="main">
       <h1>Data</h1>
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </main>
